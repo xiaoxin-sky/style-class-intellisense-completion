@@ -7,7 +7,8 @@
     "vscode": "^1.58.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Snippets"
   ],
   "activationEvents": [
     "onCommand:style-class-intellisense-completion.helloWorld",
@@ -23,6 +24,12 @@
       {
         "command": "style-class-intellisense-completion.gege",
         "title": "gege"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets.json"
       }
     ]
   },
